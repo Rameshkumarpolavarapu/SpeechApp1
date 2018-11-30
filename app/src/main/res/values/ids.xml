@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView1" type="id" />
+    <item name="progressBar1" type="id" />
+    <item name="toggleButton1" type="id" />
+</resources>

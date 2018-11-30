@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SpeechApp</string>
+    <string name="error_timeout">Timeout</string>
+    <string name="error_server">ServerTimeout</string>
+    <string name="error_busy">Error Busy</string>
+    <string name="error_no_match">Not Match has Found</string>
+    <string name="error_network">Network Error</string>
+    <string name="error_permission">Insufficent Permissions</string>
+    <string name="error_audio_error">Audio Error</string>
+    <string name="error_client">Client Error</string>
+
+    // buttons text data
+    <string name="btn_1">Google VR Button</string>
+    <string name="btn_2">Custom VR Button</string>
+    <string name="btn_3">CmusPhinx Example</string>
+
+
+    // 4th test example strings
+    <string name="kws_caption">To start demonstration say \"oh mighty computer\".</string>
+    <string name="menu_caption">Say \"digits\", \"forecast\" or \"phones\" to choose the grammar, language model or phonetic decoder example.</string>
+    <string name="digits_caption">To try recognition of digits: say something like \"one two three four five\".</string>
+    <string name="forecast_caption">To try recognition of a weather forecast like \"sunny spells on Wednesday\".</string>
+    <string name="phone_caption">To try phonetic recognition say anything.</string>
+
+
+</resources>
