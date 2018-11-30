@@ -44,6 +44,12 @@ public class VoiceRecognizerDialogFragment extends DialogFragment implements Rec
         public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
             View view = inflater.inflate(R.layout.voice_recognizer_custom_layout ,container, false );
 
+            /*
+            * Need to create my custom View
+            *
+            * */
+
+
             //Mic tap to listen again
             micImage = view.findViewById(R.id.micImageView);
             //Displays Listening.. when recognizer is listening
