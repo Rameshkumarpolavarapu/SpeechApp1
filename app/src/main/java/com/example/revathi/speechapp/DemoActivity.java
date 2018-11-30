@@ -143,14 +143,14 @@ public class DemoActivity extends Activity implements RecognitionListener {
     }
 
     public static String getErrorText(int errorCode) {
-        String message;
+        String message ="";
         switch (errorCode) {
             case SpeechRecognizer.ERROR_AUDIO:
                 message = "Audio recording error";
                 break;
-            case SpeechRecognizer.ERROR_CLIENT:
+           /* case SpeechRecognizer.ERROR_CLIENT:
                 message = "Client side error";
-                break;
+                break;*/
             case SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS:
                 message = "Insufficient permissions";
                 break;
@@ -172,9 +172,8 @@ public class DemoActivity extends Activity implements RecognitionListener {
             case SpeechRecognizer.ERROR_SPEECH_TIMEOUT:
                 message = "No speech input";
                 break;
-            default:
-                message = "Didn't understand, please try again.";
-                break;
+            /*default:
+                message = "Didn't understand, please try again.";*/
         }
         return message;
     }
