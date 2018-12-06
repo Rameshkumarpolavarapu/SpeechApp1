@@ -23,4 +23,5 @@ dependencies {
     implementation project(':aars')
     implementation project(':models')
     implementation 'com.android.support:appcompat-v7:23.3.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }
